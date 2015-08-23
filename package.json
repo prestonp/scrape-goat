@@ -23,5 +23,8 @@
   "homepage": "https://github.com/prestonp/scrape-goat#readme",
   "devDependencies": {
     "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "babel": "^5.8.21"
   }
 }
