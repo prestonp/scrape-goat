@@ -3,7 +3,7 @@ import log from './lib/log';
 import scrape from './lib/scrape';
 import { parseQuery, parsePath } from './lib/uri';
 
-const port = process.env.port || 3000;
+const port = process.env.VCAP_APP_PORT || process.env.port || 3000;
 const server = http.createServer();
 
 const router = {
