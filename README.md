@@ -37,6 +37,10 @@ curl "http://localhost:3000/?url=http://www.nytimes.com/&selector=h2.story-headi
 }
 ```
 
+Live [demo](http://scrape-goat.mybluemix.net/?url=https://news.ycombinator.com&selector=.title%20a) for my h8rs.
+
+![sick goat pic](cool-goat.jpg)
+
 ### License
 
 MIT
