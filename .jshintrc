@@ -1,0 +1,6 @@
+{
+  "esnext": true,
+  "maxdepth": 3,
+  "varstmt": true,
+  "unused": true
+}
